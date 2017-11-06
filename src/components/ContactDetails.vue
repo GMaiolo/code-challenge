@@ -76,6 +76,7 @@ $common-distance: 20px;
     .phone {
       display: flex;
       .type {
+        font-size: $small-font-size;
         margin-left: auto;
         text-transform: capitalize;
         color: lightgray;

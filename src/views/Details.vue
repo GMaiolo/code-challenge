@@ -100,7 +100,7 @@ export default {
     }
     .company {
       margin: 0;
-      font-size: $small-font-size;
+      font-size: 20px;
       color: gray;
     }
   }
