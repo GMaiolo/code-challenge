@@ -1,0 +1,23 @@
+@import './variables';
+@import './normalize';
+
+.nav-bar {
+  @include flex-center;
+  height: $nav-bar-height;
+  font-size: $med-font-size;
+  background-color: rgba(lightgray, .5);
+  border-bottom: 1px solid gray;
+}
+
+.view {
+  height: 100%;
+  overflow: auto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.unselectable {
+  user-select: none;
+}

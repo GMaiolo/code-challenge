@@ -1,0 +1,17 @@
+/* vue view transitions */
+.view, 
+.spinner-container {
+  transition: all $common-transition-time ease;
+}
+.fadeIn-enter,
+.fadeIn-leave-to {
+  opacity: 0;
+}
+.fade-enter-active,
+.fade-enter {
+  opacity: 0;
+}
+.fade-leave-active,
+.fade-leave {
+  opacity: 0;
+}
