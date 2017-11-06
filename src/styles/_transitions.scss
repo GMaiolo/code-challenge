@@ -5,13 +5,16 @@
 }
 .fadeIn-enter,
 .fadeIn-leave-to {
+  pointer-events: none;
   opacity: 0;
 }
 .fade-enter-active,
 .fade-enter {
+  pointer-events: none;
   opacity: 0;
 }
 .fade-leave-active,
 .fade-leave {
+  pointer-events: none;
   opacity: 0;
 }
